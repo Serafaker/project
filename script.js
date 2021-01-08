@@ -12,12 +12,10 @@ const personallist = {
 
 const a = prompt("какой фильм ты смотрел?");
 const b = +prompt("на сколько баллов фильм?");
-const с = prompt("какой фильм ты смотрел?");
+const c = prompt("какой фильм ты смотрел?");
 const d = +prompt("на сколько баллов фильм?");
 
 personallist.movies[a] = b;
-
-
-
+personallist.movies[c] = d;
 
 console.log(personallist);
