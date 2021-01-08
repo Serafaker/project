@@ -1,7 +1,23 @@
 "use strict";
 
-//const result = confirm ("are you here?");
+const numberoffilms = +prompt("Сколько фильмов ты смотрел?", "");
 
-//console.log(result);
-const answer = +prompt("есть 18?", "18");
-console.log(typeof(answer));
+const personallist = {
+    count: numberoffilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const a = prompt("какой фильм ты смотрел?");
+const b = +prompt("на сколько баллов фильм?");
+const с = prompt("какой фильм ты смотрел?");
+const d = +prompt("на сколько баллов фильм?");
+
+personallist.movies[a] = b;
+
+
+
+
+console.log(personallist);
