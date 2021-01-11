@@ -9,13 +9,13 @@ const personallist = {
     genres: [],
     privat: false
 };
-if (numberoffilms <=10){
+if (personallist.count <=10){
     console.log("Смотри больше!");
-    } else if (numberoffilms <=30){
+    } else if (personallist.count <=30){
         console.log("Норм!");
-    } else if (numberoffilms >30){
+    } else if (personallist.count >30){
         console.log("100% смотрел чел многоножку!");
-    }   else if (numberoffilms !==1){
+    }   else if (npersonallist.count !==1){
         console.log("и правильно порно это не кино");
     
 }
